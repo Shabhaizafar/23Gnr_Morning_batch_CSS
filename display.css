@@ -1,0 +1,65 @@
+div{
+    background-color: aqua;
+    display: block;
+    width: 300px;
+    /* height: 200px; */
+    /* padding: 10px; */
+    /* margin: 100px; */
+    /* margin: auto; */
+}
+a{
+    background-color: crimson;
+    display: inline;
+    /* width: 300px; */
+    /* height: 300px; */
+    /* margin: 100px; */
+    /* margin: auto; */
+    padding: 10px;
+}
+span{
+    background-color: blue;
+    display: inline-block;
+    /* width: 100px; */
+    /* height: 100px; */
+    /* margin: 50px; */
+    /* margin: auto; */
+    padding: 40px;
+
+}
+p{
+    background-color: red;
+}
+
+/* 
+1) block : 
+    - default width 100%
+    - default height auto
+    - always start with new Line
+    - changle width
+    - changle height
+    - padding workable 
+    - text position changle
+    - margin all side workable
+    - margin auto workable
+
+2) inline : 
+    - default width content-size
+    - default height auto
+    - not start with new line
+    - can't change width and height
+    - margin (left/right workable) (top/bottom not working)
+    - margin auto not workable
+    - padding workable
+    - text position stay in the same line
+
+3) inline-block : 
+    - default width content-size
+    - default height auto
+    - always start with same line (blank space)
+    - changle width
+    - changle height
+    - margin auto not workable
+    - padding workable
+    - margin all side workable
+    - text position changle
+*/

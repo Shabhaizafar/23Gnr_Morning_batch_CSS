@@ -1,0 +1,25 @@
+div{
+    border: 1px solid black;
+    width: 1000px;
+    /* position: relative; */
+}
+img{
+    width: 300px;
+    height: 250px;
+
+    /* default */
+    /* position: static; */
+
+    /* position: relative; */
+
+    /* position: absolute; */
+
+    /* position: fixed; */
+
+    position: sticky;
+
+    top: 10px;
+    /* left: 50%; */
+    /* bottom: 100px; */
+    /* right: 100px; */
+}

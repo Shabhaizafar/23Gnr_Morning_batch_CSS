@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: aqua;
+    margin: 5px;
+    padding: 5px;
+}
+img{
+   width: 100%; 
+   height: 100%;
+}
+.box{
+    /* border: 1px solid blue; */
+    /* outline: 15px solid blue; */
+    outline-style: double;
+    outline-width: 10px;
+    outline-color: white;
+    outline-offset: -15px;
+}
+input{
+    background-color: aqua;
+    border: none;
+    /* outline-color: blue; */
+    outline: none;
+}

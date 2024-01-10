@@ -1,0 +1,40 @@
+/*using  Color Name */
+h6{
+    color: red;
+}
+
+/* Hexa decimal number 0-9 a-f = 16*/
+h5{
+    color: #ff0000;
+}
+/* RGB Color 
+    rgb(red 0-255,green 0-255,blue 0-255)
+*/
+h4{
+    color: rgb(200,200,0);
+}
+/* 
+RGBA Color : 
+    rgba(red 0-255,green 0-255,blue 0-255,alpha 0-1)
+ */
+h3{
+    color: rgba(255,0,0,0.4);
+}
+/* HSL Color
+    hsl(hue (0-360)deg,saturation (0-100%) 100%,lightness (0-100%) 50%)
+ */
+ h2{
+    color: hsl(0,100%,100%);
+ }
+h1{
+    color: hsla(0,100%,70%,.4);
+}
+/*  */
+/* 
+Comment : ctrl+ /
+sdfg
+asdf
+sdf
+asd
+fs
+df */

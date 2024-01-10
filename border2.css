@@ -1,0 +1,16 @@
+div{
+    width: 200px;
+    height: 300px;
+    /* background-color: aqua; */
+    background-color: aqua;
+    margin: 50px auto;
+    border: 30px solid black;
+
+    /*  */
+    border-image-source: url("border-image.png");
+       /* top right bottom left */
+    border-image-slice:  27;
+    border-image-repeat: stretch;
+    border-image-width: 40px;
+    border-image-outset: 50px;
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+.box1{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000000;
+    /* background-image: repeating-linear-gradient(to bottom left,transparent 0px,transparent 20px,rgba(255, 255, 255, 0.5) 20px,rgba(255, 255, 255, 0.5) 40px),repeating-linear-gradient(to top left,transparent 0px,transparent 20px,rgba(255, 255, 255, 0.5) 20px,rgba(255, 255, 255, 0.5) 40px),linear-gradient(to bottom right,purple,violet,yellow); */
+
+    /* background-image: radial-gradient(circle at 5px 5px,orange 0px,orange 5px,transparent 5px),repeating-conic-gradient(at 25px 25px,white 0deg,white 88deg,gray 88deg,gray 90deg);
+    background-size: 50px 50px,25px 35px; */
+
+}
+/*  */

@@ -1,0 +1,82 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin:50px auto;
+    padding: 20px;
+
+    border: 10px solid black;
+
+    /* --------- border-style ----------- */
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+
+    /* border-style:none; */
+    /* border-style: unset; */
+    /* border-style: hidden; */
+
+    /* border-style: solid dashed; */
+    /* border-style: solid dashed double none; */
+
+
+    /* --------- border-width ------------- */
+            /*All side  */
+    /* border-width: 20px; */
+    
+    /* 1)top/bottom  2)left/right */
+    /* border-width: 20px 30px; */
+        /*top,right,bottom,left  */
+    /* border-width: 10px 20px 30px 40px; */
+
+    /* --------- border-color ------------- */
+    /* all side */
+    /* border-color: blue; */
+    /* border-color: blue green; */
+    /* border-color: red blue green yellow; */
+
+
+    /* Top */
+    /* border-top: 3px solid black; */
+    /* border-top-style: double;
+    border-top-width: 10px;
+    border-top-color: red; */
+    /* left */
+    /* border-left: 3px solid black; */
+    /* border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: red; */
+    /* Right */
+    /* border-right: 3px solid black; */
+    /* border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: red; */
+    /* bottom */
+    /* border-bottom: 3px solid black; */
+    /* border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-bottom-color: red; */
+
+
+    /* ------------------border-radius------------- */
+    /* border-radius: 150px; */
+
+    /* 0%-50% */
+    /* border-radius: 50%; */
+    /* border-radius: 20px 40px; */
+    /* border-radius: 20px 40px 60px 100px; */
+
+    /* border-top-left-radius: 30px; */
+    /* border-top-right-radius: 50px; */
+    /* border-bottom-right-radius: 50px; */
+    /* border-bottom-left-radius: 100px; */
+
+    /* border-start-start-radius: 30px; */
+    /* border-end-start-radius: 40px; */
+    /* border-end-end-radius: 50px; */
+    /* border-start-end-radius: 100px; */
+}

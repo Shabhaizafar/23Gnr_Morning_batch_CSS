@@ -1,0 +1,75 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.box1{
+    background-image: radial-gradient(red,yellow);
+}
+.box2{
+    background-image: radial-gradient(at left,red,yellow);
+}
+.box3{
+    background-image: radial-gradient(at right,red,yellow);
+}
+.box4{
+    background-image: radial-gradient(at top,red,yellow);
+}
+.box5{
+    background-image: radial-gradient(at bottom,red,yellow);
+}
+.box6{
+    background-image: radial-gradient(at bottom left,red,yellow);
+}
+.box7{
+    background-image: radial-gradient(at bottom right,red,yellow);
+}
+.box8{
+    background-image: radial-gradient(at top left,red,yellow);
+}
+.box9{
+    background-image: radial-gradient(at top right,red,yellow);
+}
+.box10{
+    background-image: radial-gradient(red 0px,red 30px,yellow 30px,yellow );
+}
+.box11{
+    background-image: radial-gradient(at left,red 0px,red 30px,yellow 30px,yellow );
+}
+.box12{
+    background-image: radial-gradient(circle at left,red 0px,red 30px,yellow 30px,yellow );
+}
+.box13{
+    background-image: radial-gradient(at 50px 50px,red 0px,red 30px,yellow 30px,yellow );
+}
+.box15{
+    background-image: radial-gradient(farthest-corner at 50px 50px,red,yellow);
+}
+.box16{
+    background-image: radial-gradient(closest-corner at 50px 50px,red,yellow);
+}
+.box17{
+    background-image: radial-gradient(farthest-side at 50px 50px,red,yellow);
+}
+.box18{
+    background-image: radial-gradient(closest-side at 50px 50px,red,yellow);
+}
+.box19{
+    background-image: repeating-radial-gradient(red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box20{
+    background-image: repeating-radial-gradient(at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box21{
+    background-image: repeating-radial-gradient(circle at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box22{
+    background-image: repeating-radial-gradient(at left top,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box23{
+    background-image: repeating-radial-gradient(at 60px 60px,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box24{
+    background-image: repeating-radial-gradient(at 20% 20%,red 0%,red 10%,yellow 10%,yellow 20%);
+}

@@ -1,0 +1,60 @@
+div{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    /* float: none; */
+    /* float: left; */
+    /* float: right; */
+}
+
+.box1{
+    background-color: red;
+    float: left;
+}
+.box2{
+    background-color: blue;
+    float: right;
+    /* width: 250px; */
+}
+.box3{
+    background-color: green;
+    float: left;
+}
+.box4{
+    background-color: yellow;
+    float: right;
+}
+.box5{
+    float: left;
+    background-color: purple;
+}
+.box6{
+    background-color: orange;
+    float: right;
+}
+.box7{
+    float: left;
+    background-color: pink;
+}
+.box8{
+    background-color: brown;
+    float: right;
+}
+.box9{
+    float: left;
+    background-color: grey;
+}
+.box10{
+    background-color: lightblue;
+    float: right;
+}
+.box11{
+    float: left;
+    background-color: lightgreen;
+}
+.box12{
+    background-color: crimson;
+    float: right;
+}
+
+

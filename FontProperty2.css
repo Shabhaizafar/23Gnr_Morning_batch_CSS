@@ -1,0 +1,78 @@
+p{
+        /* default */
+    /* font-size: 16px; */
+    /* font-size: medium; */
+    /* font-size: 20px; */
+    /* font-size: 100px; */
+    /* font-size: smaller; */
+    /* font-size: small; */
+    /* font-size: x-small; */
+    /* font-size: xx-small; */
+    /* font-size: large; */
+    /* font-size: larger; */
+    /* font-size: x-large; */
+    /* font-size: xx-large; */
+
+    /* font-family: arial; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: sans-serif; */
+
+    /* google font  */
+    /* font-family: 'Nova Square'; */
+
+    /* font-weight: 600; */
+    /* font-weight: 900; */
+    /* font-weight: 100; */
+    /* font-weight: normal; */
+    /* font-weight: bold; */
+    /* font-weight: bolder; */
+    /* font-weight: lighter; */
+
+    /* font-style: italic; */
+    /* font-style: oblique; */
+
+    /* font-variant:normal; */
+    font-variant: small-caps;
+
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+
+    /* text-decoration: none; */
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    /* text-indent: 50px; */
+}
+a{
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+}
+h1{
+    font-size: 60px;
+    /* font-weight: 100; */
+    /* font-weight: lighter; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'nova square';
+    color: crimson;
+    /* h-offset  v-offset blur color*/
+    text-shadow: -5px -5px 5px black, -10px -10px 5px blue;
+}
+/* 
+    Font : Group of Multiple Properties
+
+
+
+    font-size: ;
+    font-family: ;
+    font-weight: ;
+    font-style: ;
+    font-veriant:;
+    text-align: ;
+    text-decoration: ;
+    text-indent: ;
+    text-shadow: ;
+*/

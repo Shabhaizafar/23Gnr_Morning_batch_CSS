@@ -1,0 +1,62 @@
+div{
+    height: 600px;
+    border: 1px solid blue;
+
+    /* background-color */
+    /* background-color: #00ff00; */
+    /* colorname,rgb,rgba,hexa,hsl,hsla */
+
+
+    /* ------- background-image ------- */
+    background-image: url("image2.jpg");
+
+
+    /* ------------ background-size ------------ */
+    /* height */
+    /* background-size: contain; */
+
+    /* width */
+    /* background-size: cover; */
+                /* width height */
+    /* background-size: 100% 100%; */
+
+    /* background-size: cover contain; X  */
+    /* background-size: 500px 250px; */
+    /* background-repeat:space repeat; */
+    /* background-repeat: space; */
+    /* background-repeat: round space; */
+
+    /* --------------background-repeat------------- */
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+
+    /* --------- background-position ---------- */
+    /* default */
+    /* background-position: 0px 0px; */
+    /* background-position: 0% 0%; */
+    /* background-position: top left; */
+    /* background-position: 0px 0%; */
+    /* background-position: 0px top; */
+    /* background-position: left 0px; */
+
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: center; */
+
+    /* background-position: left bottom; */
+
+                        /*X  Y*/
+    /* background-position: 500px 100px; */
+    /* background-position: 70% 10%; */
+
+    background-origin: ;
+    background-clip: ;
+    background-attachment: ;
+    background-blend-mode: ; 
+}

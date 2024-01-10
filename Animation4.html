@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 4</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div{
+            border: 1px solid black;
+            font-size: 70px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 100px 0px;
+            background-image: repeating-linear-gradient(to top left,white 0px,white 20px,orange 20px,orange 40px);
+            animation-name: text;   
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            color: transparent;
+            -webkit-background-clip: text;
+            text-shadow: 5px 5px 30px aqua;
+            box-shadow: 5px 5px 30px aqua;
+        }
+        @keyframes text {
+            from{
+                background-position: 0px 0px;
+            }
+            to{
+                background-position: 0px 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>TEXT ANIMATION</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: cadetblue;
+    height: 500px;
+    display: flex;
+    /* default */
+    /* justify-content: left; */
+    /* justify-content: start; */
+    /* justify-content: flex-start; */
+    /* justify-content: stretch; */
+
+    /* justify-content: right; */
+    /* justify-content: end; */
+    /* justify-content: flex-end; */
+
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+
+    /* ----------------------------------- */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* --------------------------------------- */
+    /* default */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* -------------------- */
+    /* flex-flow: row-reverse; */
+    /* flex-flow: wrap; */
+    /* flex-flow: row-reverse wrap; */
+
+    /* ------ */
+    gap: 10px;
+}
+div{
+    
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
+div:nth-child(2n){
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+div:nth-child(2n+1){
+    background-color: crimson;
+    flex-grow: 2;
+}
+
+/* 
+parent : 
+    justify-content: ;
+    flex-direction: ;
+    flex-wrap: ;
+    flex-flow: ;
+    align-items: ;
+    row-gap:;
+    column-gap:;
+    gap: ;
+    
+
+Child : 
+    flex-basis: ;
+    flex-grow: ;
+    flex-shrink: ;
+    align-self: ;
+    align-content: ;
+    order : ;
+
+
+
+*/

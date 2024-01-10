@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+main{
+    background-color: cadetblue;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+    flex-direction: row-reverse; */
+    /* flex-flow: row-reverse wrap-reverse; */
+    /* gap: 20px; */
+    /* row-gap: 30px;
+    column-gap: 30px; */
+        /*row  column */
+    /* gap: 30px 50px; */
+
+    /* ----------------------- */
+    /* align-items: start; */
+    /* align-items: flex-start; */
+    /* align-items: self-start; */
+
+    /* align-items: center; */
+
+    /* align-items: baseline; */
+    /* align-items: first baseline; */
+    /* align-items: last baseline; */
+
+    /* align-items: end; */
+    /* align-items: flex-end; */
+    /* align-items: self-end; */
+}
+h1{
+    /* align-self: self-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */
+}
+div,h3,h1{
+    flex-grow: 1;
+}
+div:nth-child(2n),h3,h1{
+    background-color: yellow;
+    /* flex-grow: 1; */
+}
+div:nth-child(2n+1){
+    background-color: crimson;
+    /* flex-grow: 1.5; */
+}
+/* .box1{
+    order: 2;
+}
+.box2{
+    order: 1;
+}
+.box5{
+    order: -1;
+} */

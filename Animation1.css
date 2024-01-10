@@ -1,0 +1,33 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    animation-name: box;
+    animation-duration: 2s;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    /* animation-direction: normal; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    animation-iteration-count: infinite;
+}
+/* Method - 1 */
+@keyframes box {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        top: 100px;
+        left: 100px;
+    }
+    to{
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+        top: 0px;
+        left: 0px;
+    }
+    
+}
