@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(187, 187, 187);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    transform: rotate(-30deg);
+    text-align: center;
+    font-size: 24px;
+}
+li{
+    background-color: white;
+    transform:skew(25deg);
+    padding: 10px;
+    position: relative;
+    left: calc(70px * var(--i) + 10px);
+}
+li:hover{
+    background-color: var(--bg);
+    color: white;
+}
+/* li::before{
+    position: absolute;
+    content: 'Z';
+    color: transparent;
+    background-color: red;
+    left: -15px;
+    top: -04px;
+    height: 100%;
+    transform: skewY(30deg);
+} */
