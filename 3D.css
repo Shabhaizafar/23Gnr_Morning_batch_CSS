@@ -11,28 +11,45 @@ body{
 }
 ul{
     list-style-type: none;
-    transform: rotate(-30deg);
+    transform: rotate(-28deg);
     text-align: center;
     font-size: 24px;
 }
 li{
     background-color: white;
-    transform:skew(25deg);
+    transform:skew(25deg,15deg) rotate(5deg);
     padding: 10px;
     position: relative;
-    left: calc(70px * var(--i) + 10px);
+    left: calc(100px * var(--i));
 }
 li:hover{
     background-color: var(--bg);
     color: white;
 }
-/* li::before{
+li::before{
     position: absolute;
     content: 'Z';
     color: transparent;
-    background-color: red;
-    left: -15px;
-    top: -04px;
+    background-color: white;
     height: 100%;
-    transform: skewY(30deg);
-} */
+    left: -14.7px;
+    top: 8.7px;
+    transform: skewY(-50deg);
+}
+li:hover::before{
+    background-color: var(--bg);
+}
+li::after{
+    position: absolute;
+    content: 'Z';
+    color: transparent;
+    background-color: white;
+    width: 100%;
+    bottom: -17.5px;
+    left: -7.2px;
+    transform: skew(-40deg);
+    height: 17.5px;
+}
+li:hover::after{
+    background-color: var(--bg);
+}
